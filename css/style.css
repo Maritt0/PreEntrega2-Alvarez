@@ -1,0 +1,19 @@
+body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(32, 0, 53);
+}
+.conttitulo
+{
+    display:flex;
+    justify-content: center;
+      
+}
+.titulo
+{
+  border: 2px solid rgb(173, 6, 137);
+  background-color: rgb(37, 26, 192);
+  color: white;
+}
