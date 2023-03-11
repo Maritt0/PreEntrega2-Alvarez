@@ -5,15 +5,18 @@ body
     box-sizing: border-box;
     background-color: rgb(32, 0, 53);
 }
+
 .conttitulo
 {
-    display:flex;
-    justify-content: center;
+    display:block;
+    text-align: center;
+    margin-top:22%;
+    background-color: rgb(37, 26, 192);
       
 }
 .titulo
 {
-  border: 2px solid rgb(173, 6, 137);
-  background-color: rgb(37, 26, 192);
+  
+  
   color: white;
 }
