@@ -1,2 +1,2 @@
-Usuario: Usuario2
-Contraseña: 3276
+Email: gamestore@coderhouse.com
+Contraseña: 123456
