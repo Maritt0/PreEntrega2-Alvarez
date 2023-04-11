@@ -92,6 +92,10 @@ input
   text-decoration: none;
   color: white;
 }
+option, select
+{
+  color: black;
+}
 #logoutbttn
     {
       color:#ffff;
@@ -127,10 +131,9 @@ input
   margin:auto;
   height: 25vh;
 }
-.precio, .text1, .text2, .cuotas, #logoutbttn
+.text1, .text2
 {
-  font-weight:bolder;
-  color: white;
+ color:white; 
 }
 .volver
 {
