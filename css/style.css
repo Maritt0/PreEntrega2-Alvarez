@@ -1,22 +1,166 @@
-body
-{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    background-color: rgb(32, 0, 53);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    font-family: 'Raleway';
 }
-
-.conttitulo
+body#login
 {
-    display:block;
-    text-align: center;
-    margin-top:22%;
-    background-color: rgb(37, 26, 192);
-      
+  background: url(../img/FondoPC.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.titulo
+body#bodyproductos
 {
-  
-  
+  background-color: #b6aab4;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body#bodycuotas
+{
+  background-color:#2b2424;
+}
+.divcontainer
+{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 200vh;
+}
+.logincontentinput
+  {
+    background: #FFFFFF;
+    display: flex;
+    justify-items: center;
+    padding: 30px;
+    width: 364px;
+    height: 301px;
+    box-shadow: 0px 6px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+  }
+main 
+{
+    display: block;
+}
+h1
+{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #000;
+}
+label
+{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+}
+input
+{
+  width: 300px;
+  height: 35px;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+.btnlogin
+{
+  width: 300px;
+  height: 40px;
+  background: #fce1f8;
+  border: 1px solid #f7f7f7;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-weight: 900;
+  margin-top: 15px;
+}
+.btncuotas{
+  background: #0e0d0d;
+  border: 1px solid #f7f7f7;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-weight: 900;
+  margin-top: 15px;
+  text-decoration: none;
   color: white;
+}
+#logoutbttn
+    {
+      color:#ffff;
+      background-color:#b6aab4;
+      border-radius: 10px;
+      width:15vh;
+    }
+.containercuotas
+{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.CalculoText
+{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #000;
+  border: solid rgb(110, 0, 0);
+  background-color:rgb(110, 0, 0);
+  border-radius:10px;
+  border-left: solid blue;
+  border-width: 50px;
+  border-style:groove;
+
+}
+.seleccionarproducto
+{
+  display:flex;
+  justify-content: center;
+  padding:10vh;
+  margin:auto;
+  height: 25vh;
+}
+.precio, .text1, .text2, .cuotas, #logoutbttn
+{
+  font-weight:bolder;
+  color: white;
+}
+.volver
+{
+
+  background: #b6aab4;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+  font-weight: 900;
+  margin-top: 15px;
+}
+.navbarcuotas
+{
+  background-color:  #3b3232;
+  display: flex;
+  width:auto;
+  height: min-content;
+  justify-content:end;
+  font-style: none;
+  padding:2vh;
+}
+ul
+{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.volver
+{
+  display: flex;
+  color: white;
+  text-decoration: none;
 }
