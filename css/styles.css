@@ -55,6 +55,10 @@ h1
   text-align: center;
   color: #000;
 }
+select
+{
+  color:black;
+}
 label
 {
   font-weight: 500;
